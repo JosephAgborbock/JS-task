@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration Form</title>
+	<script type="text/javascript" src"validate,js"></script>
+</head>
+<body>
+<form action="student.php" method="POST" name="studentRegistration">
+<table cellpadding="2" width="20%" bgcolor="99FFFF" align="center" cellpadding="9">
+          <tr>
+          	  <td colspan="2">
+          	  <center><font size="4"><b>Student Registration Form</b></font></center>
+          	  </td>
+          </tr>
+          <!--The Username info-->
+          <tr>
+          	  <td>Name</td>
+          	  <td><input type="text" name="studentname" id="studentname" size="30"></td>
+          </tr>  
+
+          <tr>
+          	  <td>Father Name</td>
+          	  <td><input type="text" name="fathername" id="fathername" size="30"></td>
+          </tr>  
+	
+          <tr>
+          	  <td>Postal Address</td>
+          	  <td><input type="text" name="postaladdress" id="postaladdress" size="30"></td>
+          </tr>  
+
+          <tr>
+          	  <td>Personal Address</td>
+          	  <td><input type="text" name="personaladdress" id="personaladdress" size="30"></td>
+          </tr>  
+
+          <tr>
+          	  <td>Sex</td>
+          	  <td><input type="radio" name="sex" value="male" size="10">Male
+          	  <input type="radio" name="sex" value="female" size="10">Female</td>
+          </tr>
+          <!-- User location -->
+          <tr>
+              <td>City</td>
+          	  <td><select name="city">
+          	  <option value="1" selected>select</option>
+          	  <option value="Douala">Douala</option>
+          	  <option value="Yaounde">Yaounde</option>
+          	  <option value="Buea">Buea</option>
+          	  <option value="Limbe">Limbe</option>
+              <option value="Buea">Buea</option>
+              <option value="Tiko">Tiko</option>
+              <option value="Kumba">Kumba</option>
+              <option value="Mamfe">Mamfe</option>
+              <option value="Bamenda">Bamenda</option>
+          	  </select></td>
+         </tr>
+         <!-- User option -->
+         <tr>
+              <td>Department</td>
+          	  <td><select name="department">
+          	  <option value="1" selected>select</option>
+          	  <option value="Networking Engineering(COT)">Networking Engineering(COT)</option>
+              <option value="Software Engineering(COT)">Software Engineering(COT)</option>
+              <option value="Networking Engineering(COT)">Networking Engineering(COT)</option>
+              <option value="Telecommunication Engineering(COT)">Telecommunication Engineering(COT)</option>
+          	  <option value="Electrical Engineering(COT)">Elecrical Engineering(COT)</option>
+          	  <option value="Mechanical Engineering(COT)">Mechanical Engineering(COT)</option>
+          	  <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+          	  </select></td>
+         </tr>
+         <!-- User program offer -->
+         <tr>
+              <td>Program Offer/Major</td>
+          	  <td><select name="programoffer">
+          	  <option value="1" selected>select</option>
+          	  <option value="PhD">PhD</option>
+          	  <option value="M.SC">M.SC</option>
+          	  <option value="B.SC">B.SC</option>
+          	  <option value="B.ENG">B.ENG</option>
+              <option value="B.TECH">B.TECH</option>
+              <option value="HND">HND</option>
+          	  </select></td>
+         </tr>
+        <!-- User personal info -->
+         <tr>
+          	  <td>EmailId</td>
+          	  <td><input type="text" name="emailid" id="emailid" placeholder="john@gmail" size="30"></td>
+          </tr
+
+         <tr>
+         	 <td>Matriclation No</td>
+         	 <td><input type="text"name="user_matricule"placeholder="e.g COT12A098" size="30" /></td>
+         </tr>
+
+         <tr>
+          	  <td>Password</td>
+          	  <td><input type="password" name="user_password"placeholder="e.g ********" size="30" /></td>
+         </tr>
+
+         <tr>
+          	  <td>Mobile No</td>
+          	  <td><input type="text" name="mobileno" id="mobileno" size="30"></td>
+          </tr>  
+
+         <tr>
+         	 <td><input type="reset"></td>
+         	 <td colspan="2"><input type="submit" value="Submit Form"/></td>
+         </tr> 
+
+</table>
+</form>
+</body>
+<script src="script.js"></script>
+</html>
